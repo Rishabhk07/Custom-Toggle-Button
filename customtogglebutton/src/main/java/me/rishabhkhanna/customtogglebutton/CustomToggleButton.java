@@ -67,9 +67,16 @@ public class CustomToggleButton extends ToggleButton{
         GradientDrawable gradientDrawableUnChecked = (GradientDrawable) drawableItems[0];
         GradientDrawable gradientDrawablechecked = (GradientDrawable) drawableItems[1];
         TypedArray typedArray = context.obtainStyledAttributes(attrs,R.styleable.CustomToggleButton);
-        int color = typedArray.getColor(R.styleable.CustomToggleButton_toogleOnColor, Color.parseColor("#FF4081"));
+//        getting all the attributes values set from the user
+        int toggleOnColor = typedArray.getColor(R.styleable.CustomToggleButton_toogleOnColor, Color.parseColor("#FF4081"));
+        int toggleOffColor = typedArray.getColor(R.styleable.CustomToggleButton_toggleOffColor, Color.parseColor("#FF4081"));
+
+
         Float borderCheckedWidth = typedArray.getDimension(R.styleable.CustomToggleButton_borderWidth, 4.0f);
-        gradientDrawableUnChecked.setStroke(Math.round(borderCheckedWidth),color);
+        gradientDrawableUnChecked.setStroke(Math.round(borderCheckedWidth),toggleOnColor);
+        gradientDrawablechecked.setColor(toggleOffColor);
+        gradientDrawablechecked.setStroke(Math.round(borderCheckedWidth),toggleOffColor);
+
 
     }
 }
