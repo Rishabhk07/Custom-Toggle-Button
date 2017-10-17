@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="CustomToggleButton">
+        <attr name="borderWidth" format="dimension"></attr>
+        <attr name="borderColor" format="color"></attr>
+        <attr name="toogleOnColor" format="color"></attr>
+        <attr name="toggleOfColor" format="color"></attr>
+    </declare-styleable>
+</resources>
