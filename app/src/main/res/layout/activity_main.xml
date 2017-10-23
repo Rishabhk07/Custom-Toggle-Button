@@ -10,7 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        app:toogleOnColor="#333"
+        android:textOn="enabled"
+        android:textOff="disabled"
         ></me.rishabhkhanna.customtogglebutton.CustomToggleButton>
 
 </FrameLayout>
