@@ -32,7 +32,7 @@
    ```
  
 ### Customizations
-you can use all the defaut toggle button attributes and apart from that customizations can be made using following attributes: -
+you can use all the default toggle button attributes and apart from that customizations can be made using following attributes: -
  
  
 * ```app:checkedColor="#333"``` (To change the color of checked toggle state)
