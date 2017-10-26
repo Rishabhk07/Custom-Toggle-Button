@@ -57,6 +57,10 @@ you can use all the defaut toggle button attributes and apart from that customiz
  ![radius 20dp unchecked](/screenshots/radius_20dp.png)
  ![radius 20dp checked](/screenshots/radius_20dp_checked.png)
  
+ ## License 
+ This software is licensed under the Apache License V2.0
+ A copy can be found [here](./LICENSE.md)
+ 
  
  
  
