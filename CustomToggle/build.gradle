@@ -5,7 +5,7 @@ ext {
     bintrayName = 'custom-toggle-button'
 
     publishedGroupId = 'me.rishabhkhanna.custom-toggle'
-    libraryName = 'Custom Toggle Button'
+    libraryName = 'custom-toggle-button'
     artifact = 'custom-toggle-button'
 
     libraryDescription = 'A custom toggle button'
