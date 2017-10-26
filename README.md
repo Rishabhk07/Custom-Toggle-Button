@@ -20,7 +20,7 @@
  ```
  
  ### Usage
-   To use Custom toggle button, add the following lines
+   To use Custom toggle button, add the following lines in your xml
    ```xml
        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
            android:layout_width="wrap_content"
