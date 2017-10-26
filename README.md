@@ -39,7 +39,25 @@ you can use all the defaut toggle button attributes and apart from that customiz
 * ```app:checkedTextColor="#fff"``` (To change text color of checked state, Default is #fff)
 * ```app:uncheckedTextColor="#000"```   (To change text color of unchecked state, Default is #333)
 * ```app:radius="10dp"```   (Define the corner radius of the button, examples given below)
-  
+
+### Examples
+
+ * `app:radius="0dp"`
+ 
+ ![radius 0dp unchecked](/screenshots/radius_0dp.png)
+ ![radius 0dp checked](/screenshots/radius_0dp_checked.png)
+ 
+ * `app:radius="2dp"`
+ 
+ ![radius 2dp unchecked](/screenshots/radius_2dp.png)
+ ![radius 2dp checked](/screenshots/radius_2dp_checked.png)
+ 
+ * `app:radius="20dp"`
+ 
+ ![radius 20dp unchecked](/screenshots/radius_20dp.png)
+ ![radius 20dp checked](/screenshots/radius_20dp_checked.png)
+ 
+ 
  
  
  
