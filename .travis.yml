@@ -56,3 +56,6 @@ cache:
 branches:
   only:
     - master
+checkout:
+  post:
+    - cp local.properties.ci local.properties
