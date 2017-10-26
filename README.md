@@ -4,9 +4,9 @@
  
  An android library for outline toggle buttons
  
- ![unchecked state](/screeenshots/radius_10dp.png)
+ ![unchecked state](/screenshots/radius_10dp.png)
  
- ![checked state](/screeenshots/radius_10dp_checked.png)
+ ![checked state](/screenshots/radius_10dp_checked.png)
  
  ## How to use 
 ### Include the Library  
