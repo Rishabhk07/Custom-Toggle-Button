@@ -7,7 +7,7 @@ env:
   global:
     - GRADLE_OPTS="-Xmx512m"
     - BUILD_TOOLS="26.0.1"
-    - TARGET_SDK=26
+    - TARGET_SDK=25
   matrix:
     - EMULATOR_API=19 ANDROID_ABI=armeabi-v7a ANDROID_TAG=google_apis
     - EMULATOR_API=21 ANDROID_ABI=armeabi-v7a ANDROID_TAG=google_apis
