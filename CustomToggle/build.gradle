@@ -1,14 +1,14 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'custom-toggle-button'
+    bintrayRepo = 'CustomToggle'
+    bintrayName = 'CustomToggle'
 
-    publishedGroupId = 'me.rishabhkhanna.custom-toggle'
-    libraryName = 'custom-toggle-button'
-    artifact = 'custom-toggle-button'
+    publishedGroupId = 'me.rishabhkhanna'
+    libraryName = 'CustomToggle'
+    artifact = 'CustomToggle'
 
-    libraryDescription = 'A custom toggle button'
+    libraryDescription = 'A custom toggle button library'
 
     siteUrl = 'https://github.com/rishabhk07/custom-toggle-button'
     gitUrl = 'https://github.com/rishabhk07/custom-toggle-button.git'
