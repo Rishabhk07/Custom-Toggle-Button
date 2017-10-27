@@ -13,6 +13,7 @@
         app:radius="10dp"
         android:textOn="toggle button"
         android:textOff="toggle button"
+        android:id="@+id/toggle_button"
         ></me.rishabhkhanna.customtogglebutton.CustomToggleButton>
 
 </FrameLayout>
