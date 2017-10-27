@@ -1,6 +1,7 @@
 # Custom-Toggle-Button
  [ ![Download](https://api.bintray.com/packages/rishabhk07/CustomToggle/CustomToggle/images/download.svg) ](https://bintray.com/rishabhk07/CustomToggle/CustomToggle/_latestVersion)
  [![Build Status](https://travis-ci.org/Rishabhk07/Custom-Toggle-Button.svg?branch=master)](https://travis-ci.org/Rishabhk07/Custom-Toggle-Button)
+ [![codecov](https://codecov.io/gh/Rishabhk07/Custom-Toggle-Button/branch/master/graph/badge.svg)](https://codecov.io/gh/Rishabhk07/Custom-Toggle-Button)
  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d4822fd4495e40fb84d1d93a50007f4e)](https://www.codacy.com/app/Rishabhk07/Custom-Toggle-Button?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Rishabhk07/Custom-Toggle-Button&amp;utm_campaign=Badge_Grade)
  [![codebeat badge](https://codebeat.co/badges/7c891f60-116c-43a8-b77f-48c73816bc7e)](https://codebeat.co/projects/github-com-rishabhk07-custom-toggle-button-master)
  
