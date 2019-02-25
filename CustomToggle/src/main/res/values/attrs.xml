@@ -2,7 +2,9 @@
     <declare-styleable name="CustomToggleButton">
         <attr name="borderWidth" format="dimension"></attr>
         <attr name="checkedColor" format="color"></attr>
+        <attr name="checkedBorderColor" format="color"></attr>
         <attr name="uncheckedColor" format="color"></attr>
+        <attr name="uncheckedBorderColor" format="color"></attr>
         <attr name="radius" format="dimension"></attr>
         <attr name="checkedTextColor" format="color"></attr>
         <attr name="uncheckedTextColor" format="color"></attr>
