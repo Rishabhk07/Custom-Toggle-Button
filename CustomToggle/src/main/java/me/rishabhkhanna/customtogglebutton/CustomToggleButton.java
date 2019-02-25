@@ -68,7 +68,9 @@ public class CustomToggleButton extends ToggleButton {
 
 //        getting all the attributes values set from the typed array i.e from user
         int toggleOnColor = typedArray.getColor(R.styleable.CustomToggleButton_checkedColor, Color.parseColor("#FF4081"));
-        int toggleOffColor = typedArray.getColor(R.styleable.CustomToggleButton_uncheckedColor, Color.parseColor("#FF4081"));
+        int toggleOnBorderColor = typedArray.getColor(R.styleable.CustomToggleButton_checkedBorderColor, toggleOnColor);
+        int toggleOffColor = typedArray.getColor(R.styleable.CustomToggleButton_uncheckedColor, Color.parseColor("#00000000"));
+        int toggleOffBorderColor = typedArray.getColor(R.styleable.CustomToggleButton_uncheckedBorderColor, toggleOffColor);
         float borderWidth = typedArray.getDimension(R.styleable.CustomToggleButton_borderWidth, 4.0f);
         float radius = typedArray.getDimension(R.styleable.CustomToggleButton_radius, 15.0f);
         int checkedTextColor = typedArray.getColor(R.styleable.CustomToggleButton_checkedTextColor, getResources().getColor(R.color.CheckedTextColor));
@@ -88,11 +90,12 @@ public class CustomToggleButton extends ToggleButton {
         this.setTextColor(colorStateList);
 
 
-        checked.setStroke(Math.round(borderWidth), toggleOnColor);
+        checked.setStroke(Math.round(borderWidth), toggleOnBorderColor);
         checked.setColor(toggleOnColor);
         checked.setCornerRadius(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, radius, getResources().getDisplayMetrics()));
 
-        unChecked.setStroke(Math.round(borderWidth), toggleOffColor);
+        unChecked.setStroke(Math.round(borderWidth), toggleOffBorderColor);
+        unChecked.setColor(toggleOffColor);
         unChecked.setCornerRadius(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, radius, getResources().getDisplayMetrics()));
 
 
