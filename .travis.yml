@@ -22,7 +22,6 @@ android:
  - tools
  - platform-tools
  - tools
- - build-tools-$BUILD_TOOLS
  - android-$EMULATOR_API
  - android-$TARGET_SDK
  - extra-google-m2repository
