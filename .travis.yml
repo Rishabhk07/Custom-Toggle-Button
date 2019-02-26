@@ -57,3 +57,5 @@ branches:
 checkout:
   post:
     - cp local.properties.ci local.properties
+before_install:
+    - yes | sdkmanager "platforms;android-28"    
